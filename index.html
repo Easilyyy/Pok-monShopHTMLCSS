@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Site d'affiliation Pokémon - Découvrez toutes les cartes Pokémon, séries et promotions exclusives.">
+  <title>PokémonShop</title>
+
+  <!-- FAVICON -->
+  <link rel="icon" type="image/png" href="images/favicon.png" sizes="32x32">
+
+  <!-- Font Awesome (sans integrity) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+
+  <!-- Barre supérieure avec logo + recherche -->
+  <div class="topbar">
+    <div class="top-logo">PokémonShop</div>
+
+    <form class="search-form">
+      <label for="search" class="sr-only">Recherche</label>
+      <input type="text" id="search" placeholder="Rechercher une carte, série, etc.">
+      <button type="submit">🔍</button>
+    </form>
+
+    <div class="topbar-spacer"></div>
+  </div>
+
+  <!-- Barre de navigation principale -->
+  <header>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="#">ACCUEIL</a></li>
+        <li><a href="#">SÉRIES</a></li>
+        <li><a href="#">CARTES</a></li>
+      </ul>
+
+      <div class="login">
+        <a href="#">CONNEXION</a>
+      </div>
+    </nav>
+
+    <div class="banniere-container">
+      <img src="images/banniere.jpg" alt="Bannière Pokémon" class="banniere" />
+      <img src="images/salameche.png" alt="Salamèche" class="salameche-img" />
+      <div class="banniere-overlay"></div>
+      <div class="banniere-text">
+        <h1>Bienvenue sur PokémonShop</h1>
+        <p>Découvrez toutes les cartes Pokémon, séries et promotions exclusives ! </p>
+      </div>
+      <img src="images/carapuce.png" alt="Carapuce" class="carapuce-img" />
+      <img src="images/bulbizarre.png" alt="Bulbizarre" class="bulbizarre-img" />
+    </div>
+  </header>
+
+  <main>
+    <!-- Section Produits Amazon -->
+    <section class="products">
+      <h2>Les dernières extensions</h2>
+
+      <!-- Produit 1 -->
+      <div class="product-card">
+        <img src="images/pokemon-evolutions-prismatiques.jpg" alt="Pokémon Lot de boosters Écarlate et Violet – Évolutions Prismatiques" class="product-image" />
+        <h3>Pokémon: Lot de boosters Écarlate et Violet – Évolutions Prismatiques du JCC Pokémon (6 boosters)</h3>
+        <a href="https://amzn.to/3IhQ9UW" target="_blank" rel="noopener noreferrer" class="btn-affiliate">Voir sur Amazon</a>
+      </div>
+
+      <!-- Produit 2 -->
+      <div class="product-card">
+        <img src="images/pokemon-rivalites-destinees.jpg" alt="Pokémon Lot de boosters Écarlate et Violet – Rivalités Destinées" class="product-image" />
+        <h3>Pokémon: Lot de boosters Écarlate et Violet – Rivalités Destinées du JCC Pokémon (6 boosters)</h3>
+        <a href="https://amzn.to/445Fsxl" target="_blank" rel="noopener noreferrer" class="btn-affiliate">Voir sur Amazon</a>
+      </div>
+
+      <!-- Produit 3 -->
+      <div class="product-card">
+        <img src="images/pokemon-aventure-ensemble.jpg" alt="Pokémon Lot de boosters Écarlate et Violet – Aventures Ensemble" class="product-image" />
+        <h3>Pokémon: Lot de boosters Écarlate et Violet – Aventures Ensemble du JCC Pokémon (6 boosters)</h3>
+        <a href="https://amzn.to/4l3EM1q" target="_blank" rel="noopener noreferrer" class="btn-affiliate">Voir sur Amazon</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="socials">
+        <a href="#" target="_blank"><i class="fab fa-x-twitter"></i> Twitter</a>
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+        <a href="#" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
+        <a href="#" target="_blank"><i class="fab fa-discord"></i> Discord</a>
+      </div>
+      <p class="copyright">© 2025 PokémonShop - Tous droits réservés</p>
+    </div>
+  </footer>
+
+</body>
+</html>
